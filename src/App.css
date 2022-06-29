@@ -73,3 +73,27 @@ a {
   text-decoration: none;
   color: rgb(24, 7, 7);
 }
+
+.heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.heading h4 {
+  color: #ff014f;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+
+h1 {
+  color: #3c3e41;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  height: 20px;
+  width: 20px;
+}
